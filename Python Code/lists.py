@@ -32,3 +32,12 @@ print(a[3])
 # a[0] = new item will replace an item from the list for the specified target
 a[0] = 100
 print(a)
+
+# new list
+b = ["bananna", "apple", "microsoft"]
+
+temp = b[0]
+b[0] = b[2]
+b[2] = temp
+
+print(b)
