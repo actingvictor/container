@@ -28,3 +28,36 @@ for i in range(1, 8):
     if i % 3 == 0:
         total3 += i
 print(total3)
+print(" ")
+
+# homework
+total4 = 0
+for i in range(1, 100):
+    if i % 3 == 0:
+        total4 += i
+
+total5 = 0
+for i in range(1, 100):
+    if i % 5 == 0:
+        total5 += i
+
+gt = total4 + total5
+
+print("total multiples of 3 & 5")
+print(gt)
+print(" ")
+
+# homework ver 2
+total6 = 0
+for i in range(1, 100):
+    if i % 3 == 0:
+        print("multiple of 3: ")
+        print(i)
+        print(" ")
+
+total7 = 0
+for i in range(1, 100):
+    if i % 5 == 0:
+        print("multiple of 5: ")
+        print(i)
+        print(" ")
