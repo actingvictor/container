@@ -1,3 +1,8 @@
+# Python 3.8
+# Januart 26, 2020
+
+
+# starting with variables
 a = 1
 b = 2
 if a < b:
