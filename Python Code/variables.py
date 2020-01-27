@@ -62,3 +62,8 @@ if bmi < 25:
 else:
     print(name)
     print("is overweight")
+
+x = y = z = 10
+print(x)
+print(y)
+print(z)

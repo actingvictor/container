@@ -44,29 +44,19 @@ while True:
         break
 print(total5)
 
-# answer
-list6 = [7, 5, 4, 4, 3, 1, -2, -3, -5, -7]
-t = 0
-i = 0
-while i < len(list6):
-    if list6[i] < 0:
-        t += list6[i]
-    i += 1
-print(t)
-
-
-# my shitty code
+# homework
 list5 = [7, 5, 4, 4, 3, 1, -2, -3, -5, -7]
 total5 = 0
 i = 0
 
-while list5[i] >= 0:
-    i += 1
+while i < len(list5):
     if list5[i] < 0:
-        break
-
-while list5[i] < 0:
+        total5 += list5[i]
     i += 1
-    total5 += list5[i]
-
 print(total5)
+
+# len() function
+list6 = ["hello", "goodbye", "see ya", "welcome"]
+
+xy = len(list6)
+print(xy)

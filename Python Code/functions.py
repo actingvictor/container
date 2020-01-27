@@ -3,6 +3,9 @@
 
 
 # defining a new function
+import random
+
+
 def function1():
     print("ahhh")
     print("ahhhh 2")
@@ -139,3 +142,10 @@ print(" ")
 print(km1)
 print(km2)
 print(km3)
+
+# random number generator
+
+x = 0
+while x < 10:
+    print(random.randrange(1, 100))
+    x += 1
