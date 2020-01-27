@@ -55,6 +55,16 @@ while i < len(list5):
     i += 1
 print(total5)
 
+# answer
+a_given_list = [7, 5, 4, 4, 3, 1, -2, -3, -5, -7]
+atotal = 0
+
+aj = len(a_given_list) - 1
+while a_given_list[aj] < 0:
+    atotal += a_given_list[aj]
+    aj -= 1
+print(atotal)
+
 # len() function
 list6 = ["hello", "goodbye", "see ya", "welcome"]
 
