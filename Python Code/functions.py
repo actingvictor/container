@@ -149,4 +149,3 @@ x = 0
 while x < 10:
     print(random.randrange(1, 100))
     x += 1
-print(random)
