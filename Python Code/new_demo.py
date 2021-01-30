@@ -6,3 +6,5 @@ if 5 > 2:
 # creating variables by assigning a value to it
 x = 5
 y = "Hello, World"
+
+print(x, y)
