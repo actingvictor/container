@@ -38,4 +38,8 @@ A = "Sally"
 print(a)
 print(A)
 
+b = 5
+print(b)
+
+
 # Assign multiple values
