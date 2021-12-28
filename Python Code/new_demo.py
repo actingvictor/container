@@ -41,5 +41,7 @@ print(A)
 b = 5
 print(b)
 
+c = 100
+print(c)
 
 # Assign multiple values
